@@ -52,7 +52,7 @@ public class GestorUsuarios
         {
             try{
             Msj("");
-            Msj(colorVioleta + "Bienvenidos al Sistema de usarios" + resetColor);
+            Msj(colorVioleta + "-------BIENVENIDOS AL SISTEMA DE USUARIOS---------------------" + resetColor);
             Msj(colorVioleta + "1." + resetColor + "Agregar un Usuario" + resetColor);
             Msj(colorVioleta + "2." + resetColor + "Editar un Usuario" + resetColor);
             Msj(colorVioleta + "3." + resetColor + "Eliminar un Usuario" + resetColor);
