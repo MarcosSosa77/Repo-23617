@@ -52,13 +52,13 @@ public class GestorUsuarios
         {
             try{
             Msj("");
-            Msj(colorVioleta + "-------BIENVENIDOS AL SISTEMA DE USUARIOS---------------------" + resetColor);
-            Msj(colorVioleta + "1." + resetColor + "Agregar un Usuario" + resetColor);
-            Msj(colorVioleta + "2." + resetColor + "Editar un Usuario" + resetColor);
-            Msj(colorVioleta + "3." + resetColor + "Eliminar un Usuario" + resetColor);
-            Msj(colorVioleta + "4." + resetColor + "Mostrar lista de usuarios" + resetColor);
-            Msj(colorVioleta + "5." + resetColor + "Salir y Guardar Usuarios" + resetColor);
-            Msj(colorVioleta + "Seleccione una opcion" + resetColor);
+            Msj(colorRojo + "-------BIENVENIDOS AL SISTEMA DE USUARIOS---------------------" + resetColor);
+            Msj(colorRojo + "1." + resetColor + "Agregar un Usuario" + resetColor);
+            Msj(colorRojo + "2." + resetColor + "Editar un Usuario" + resetColor);
+            Msj(colorRojo + "3." + resetColor + "Eliminar un Usuario" + resetColor);
+            Msj(colorRojo + "4." + resetColor + "Mostrar lista de usuarios" + resetColor);
+            Msj(colorRojo + "5." + resetColor + "Salir y Guardar Usuarios" + resetColor);
+            Msj(colorRojo + "Seleccione una opcion" + resetColor);
 
             int opcion = input.nextInt();
 
